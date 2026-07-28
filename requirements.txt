@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-﻿# Python dependencies for spreadsheet conversion
-=======
 openpyxl>=3.1,<4
->>>>>>> feature/interactive-map

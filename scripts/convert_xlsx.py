@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-﻿#!/usr/bin/env python3
-"""Convert the project spreadsheets into website JSON data."""
-=======
 #!/usr/bin/env python3
 """Convert the bilingual Brazil Silicon Roadmap workbooks into website JSON."""
 
@@ -202,4 +198,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
->>>>>>> feature/interactive-map

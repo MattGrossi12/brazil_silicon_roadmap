@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-﻿// Interactive map and filtering logic
-=======
 const NS = "http://www.w3.org/2000/svg";
 
 const COLORS = {
@@ -643,4 +640,3 @@ async function init() {
 }
 
 init();
->>>>>>> feature/interactive-map
