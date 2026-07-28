@@ -1,1 +1,191 @@
-﻿<!-- Interactive Brazil semiconductor map -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="An interactive atlas of semiconductor, microelectronics, and FPGA organizations in Brazil."
+    />
+    <meta name="theme-color" content="#f4f0e6" />
+    <title>Brazil Silicon Roadmap</title>
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="#map" aria-label="Brazil Silicon Roadmap">
+          <strong>Brazil Silicon Roadmap</strong>
+          <span data-copy="subtitle"></span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="#directory" class="directory-link" data-copy="directory"></a>
+          <div class="language-switch" aria-label="Language">
+            <button type="button" data-language="en" class="active">EN</button>
+            <button type="button" data-language="pt">PT</button>
+          </div>
+          <a
+            id="github-link"
+            class="github-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span data-copy="github"></span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 5h5v5M12 12l7-7M19 13v6H5V5h6" />
+            </svg>
+          </a>
+        </nav>
+      </header>
+
+      <main>
+        <section id="map" class="map-stage" aria-label="Interactive map">
+          <button id="mobile-filters" class="mobile-filters" type="button">
+            <span data-copy="filters"></span>
+            <b id="mobile-count">48</b>
+          </button>
+
+          <aside id="filter-panel" class="filter-panel">
+            <div class="mobile-panel-head">
+              <strong data-copy="filters"></strong>
+              <button id="close-filters" type="button" data-copy="close"></button>
+            </div>
+            <label class="search-box">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="6.5"></circle>
+                <path d="m16 16 4 4"></path>
+              </svg>
+              <span class="sr-only" data-copy="search"></span>
+              <input id="map-search" type="search" autocomplete="off" />
+            </label>
+            <div id="suggestions" class="suggestions" hidden></div>
+            <div class="filter-heading">
+              <h2 data-copy="type"></h2>
+              <span id="result-count" aria-live="polite"></span>
+            </div>
+            <div id="category-list" class="category-list"></div>
+            <button id="reset-filters" class="reset-filters" type="button" disabled>
+              <span aria-hidden="true">↻</span>
+              <span data-copy="reset"></span>
+            </button>
+            <p id="empty-map" class="empty-map" hidden data-copy="empty"></p>
+          </aside>
+
+          <div class="stat-row" aria-label="Dataset summary">
+            <article class="organizations">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="9" cy="8" r="3"></circle>
+                <path d="M3.5 19c.4-4 2.2-6 5.5-6s5.1 2 5.5 6M16 7.5a2.5 2.5 0 0 1 0 5M16 14c2.8.2 4.3 1.8 4.5 5"></path>
+              </svg>
+              <div><strong id="stat-organizations">48</strong><span data-copy="organizations"></span></div>
+            </article>
+            <article class="locations">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 21s6-6.2 6-12A6 6 0 0 0 6 9c0 5.8 6 12 6 12Z"></path>
+                <circle cx="12" cy="9" r="2"></circle>
+              </svg>
+              <div><strong id="stat-locations">66</strong><span data-copy="locations"></span></div>
+            </article>
+            <article class="clusters">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="7" cy="15" r="3"></circle>
+                <circle cx="16.5" cy="7.5" r="2.5"></circle>
+                <circle cx="17" cy="17" r="2"></circle>
+              </svg>
+              <div><strong id="stat-clusters">13</strong><span data-copy="clusters"></span></div>
+            </article>
+          </div>
+
+          <div class="map-canvas">
+            <svg
+              id="brazil-map"
+              class="brazil-map"
+              viewBox="0 0 780 720"
+              role="img"
+              aria-labelledby="map-title map-description"
+            >
+              <title id="map-title">Brazil semiconductor ecosystem map</title>
+              <desc id="map-description">Interactive cluster map generated from the Brazil Silicon Roadmap workbooks.</desc>
+              <defs>
+                <filter id="heat-blur" x="-100%" y="-100%" width="300%" height="300%">
+                  <feGaussianBlur stdDeviation="14"></feGaussianBlur>
+                </filter>
+                <radialGradient id="cluster-heat">
+                  <stop offset="0%" stop-color="#d7a928" stop-opacity=".82"></stop>
+                  <stop offset="42%" stop-color="#f3d46b" stop-opacity=".5"></stop>
+                  <stop offset="72%" stop-color="#2b8a58" stop-opacity=".25"></stop>
+                  <stop offset="100%" stop-color="#2b8a58" stop-opacity="0"></stop>
+                </radialGradient>
+              </defs>
+              <g id="map-zoom-layer">
+                <g id="state-layer" class="state-layer"></g>
+                <g id="heat-layer" class="heat-layer"></g>
+                <g id="marker-layer" class="marker-layer"></g>
+              </g>
+            </svg>
+          </div>
+
+          <div class="map-legend">
+            <div class="legend-head">
+              <strong data-copy="intensity"></strong>
+              <button id="heat-toggle" type="button" aria-pressed="true">
+                <span data-copy="heatmap"></span><i class="on"></i>
+              </button>
+            </div>
+            <div class="heat-scale" aria-hidden="true"></div>
+            <div class="scale-labels"><span data-copy="low"></span><span data-copy="high"></span></div>
+            <p><i class="legend-marker"></i><span data-copy="center"></span></p>
+          </div>
+
+          <div class="zoom-controls" aria-label="Map controls">
+            <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+            <button id="zoom-out" type="button" aria-label="Zoom out">−</button>
+            <button id="zoom-reset" type="button" aria-label="Reset map">◎</button>
+          </div>
+
+          <aside id="detail-card" class="detail-card" hidden aria-live="polite"></aside>
+          <p class="map-note" data-copy="approximate"></p>
+        </section>
+
+        <section id="directory" class="directory-section">
+          <div class="directory-head">
+            <div>
+              <p id="directory-fraction" class="eyebrow">48 / 48</p>
+              <h2 data-copy="directoryTitle"></h2>
+              <p data-copy="directoryIntro"></p>
+            </div>
+            <label class="directory-search">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="6.5"></circle>
+                <path d="m16 16 4 4"></path>
+              </svg>
+              <span class="sr-only" data-copy="search"></span>
+              <input id="directory-search" type="search" autocomplete="off" />
+            </label>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th data-copy="name"></th>
+                  <th data-copy="type"></th>
+                  <th data-copy="presence"></th>
+                  <th><span class="sr-only" data-copy="source"></span></th>
+                </tr>
+              </thead>
+              <tbody id="directory-body"></tbody>
+            </table>
+            <p id="empty-directory" class="empty-directory" hidden data-copy="empty"></p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Data: <a id="footer-data" target="_blank" rel="noreferrer">Brazil Silicon Roadmap</a></p>
+        <p>Geography: <a id="footer-map" target="_blank" rel="noreferrer">click_that_hood</a> (MIT)</p>
+      </footer>
+    </div>
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
