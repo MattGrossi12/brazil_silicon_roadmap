@@ -1367,3 +1367,27 @@ footer a {
     animation-iteration-count: 1 !important;
   }
 }
+
+.site-footer,
+.contributor-credit {
+  text-align: center;
+  color: #68736d;
+  font-size: 0.85rem;
+}
+
+.site-footer {
+  padding: 1.5rem 1rem 2rem;
+}
+
+.site-footer a,
+.contributor-credit a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.contributor-credit a:hover {
+  color: #167c5a;
+  text-decoration: underline;
+}
