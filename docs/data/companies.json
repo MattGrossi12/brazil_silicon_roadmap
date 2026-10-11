@@ -1,0 +1,1249 @@
+{
+  "generatedAt": "2026-07-28T12:36:02.836594+00:00",
+  "source": "https://github.com/MattGrossi12/brazil_silicon_roadmap",
+  "metadata": {
+    "organizations": 48,
+    "locationEntries": 66,
+    "clusters": 13
+  },
+  "categoryLabels": {
+    "brazilian-private": {
+      "en": "Brazilian private company",
+      "pt": "Empresa privada nacional"
+    },
+    "international-private": {
+      "en": "International private company",
+      "pt": "Empresa privada internacional"
+    },
+    "private-research": {
+      "en": "Private research center",
+      "pt": "Centro de pesquisa privado"
+    },
+    "public-research": {
+      "en": "Public research center",
+      "pt": "Centro de pesquisa público"
+    },
+    "state-owned": {
+      "en": "State-owned company",
+      "pt": "Empresa estatal"
+    }
+  },
+  "companies": [
+    {
+      "id": "aedvices",
+      "number": 1,
+      "name": "Aedvices",
+      "activity": {
+        "en": "ASIC and SoC design and verification using SystemVerilog, UVM, Verification IP, and embedded systems.",
+        "pt": "Projeto e verificação de ASICs e SoCs, com SystemVerilog, UVM, Verification IP e sistemas embarcados."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://aedvices.com/en/home/"
+      ],
+      "locations": [
+        "campinas"
+      ]
+    },
+    {
+      "id": "boeing",
+      "number": 2,
+      "name": "Boeing",
+      "activity": {
+        "en": "FPGA and digital-electronics applications in avionics and aerospace systems; a dedicated RTL team in Brazil has not been publicly confirmed.",
+        "pt": "Aplicações de FPGA e eletrônica digital em aviônica e sistemas aeroespaciais; equipe RTL específica no Brasil não confirmada publicamente."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.boeing.com.br/"
+      ],
+      "locations": [
+        "sao-jose-dos-campos"
+      ]
+    },
+    {
+      "id": "cadence",
+      "number": 3,
+      "name": "Cadence",
+      "activity": {
+        "en": "EDA tools and IP for the design, simulation, verification, synthesis, and implementation of ASICs, SoCs, and FPGAs.",
+        "pt": "Ferramentas EDA e IP para projeto, simulação, verificação, síntese e implementação de ASICs, SoCs e FPGAs."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.cadence.com/en_US/home/company.html"
+      ],
+      "locations": [
+        "belo-horizonte",
+        "campinas"
+      ]
+    },
+    {
+      "id": "ceitec",
+      "number": 4,
+      "name": "CEITEC",
+      "activity": {
+        "en": "Design and manufacturing of application-specific integrated circuits, particularly for RFID and electronic identification.",
+        "pt": "Projeto e fabricação de circuitos integrados de aplicação específica, especialmente RFID e identificação eletrônica."
+      },
+      "organizationType": {
+        "en": "For-profit state-owned company",
+        "pt": "Estatal com fins lucrativos"
+      },
+      "category": "state-owned",
+      "sources": [
+        "https://www.ceitec-sa.com/pt"
+      ],
+      "locations": [
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "chipus",
+      "number": 5,
+      "name": "Chipus",
+      "activity": {
+        "en": "Design of analog, mixed-signal, and digital ASICs, semiconductor IP, and FPGA-to-ASIC conversion.",
+        "pt": "Projeto de ASICs analógicos, mixed-signal e digitais, IPs semicondutores e conversão de FPGA para ASIC."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://www.chipus-ip.com.br/"
+      ],
+      "locations": [
+        "florianopolis"
+      ]
+    },
+    {
+      "id": "cnpem",
+      "number": 6,
+      "name": "CNPEM",
+      "activity": {
+        "en": "FPGA and SoC development for scientific instrumentation, data acquisition, control, and real-time processing.",
+        "pt": "Desenvolvimento de FPGA e SoC para instrumentação científica, aquisição de dados, controle e processamento em tempo real."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://cnpem.br/"
+      ],
+      "locations": [
+        "campinas"
+      ]
+    },
+    {
+      "id": "cpqd",
+      "number": 7,
+      "name": "CPQD",
+      "activity": {
+        "en": "Hardware, embedded-system, and FPGA solutions for selected telecommunications and connectivity projects.",
+        "pt": "Desenvolvimento de hardware, sistemas embarcados e soluções FPGA em projetos específicos de telecomunicações e conectividade."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://www.cpqd.com.br/sobre-o-cpqd/"
+      ],
+      "locations": [
+        "campinas"
+      ]
+    },
+    {
+      "id": "cti-renato-archer",
+      "number": 8,
+      "name": "CTI Renato Archer",
+      "activity": {
+        "en": "Research and development in microelectronics, integrated-circuit design, prototyping, and semiconductor technologies.",
+        "pt": "Pesquisa e desenvolvimento em microeletrônica, projeto de circuitos integrados, prototipagem e tecnologias de semicondutores."
+      },
+      "organizationType": {
+        "en": "Public research center",
+        "pt": "Centro de pesquisas pública"
+      },
+      "category": "public-research",
+      "sources": [
+        "https://www.gov.br/cti/pt-br/acesso-a-informacao/institucional/sobre-o-cti"
+      ],
+      "locations": [
+        "campinas"
+      ]
+    },
+    {
+      "id": "embraer",
+      "number": 9,
+      "name": "Embraer",
+      "activity": {
+        "en": "FPGA development for avionics, signal processing, and aeronautical electronic systems.",
+        "pt": "Desenvolvimento de FPGA para aviônica, processamento de sinais e sistemas eletrônicos aeronáuticos."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://www.embraer.com/corporate-about/pt/"
+      ],
+      "locations": [
+        "sao-jose-dos-campos"
+      ]
+    },
+    {
+      "id": "ensilica",
+      "number": 10,
+      "name": "EnSilica",
+      "activity": {
+        "en": "Turnkey design of digital, analog, RF, and mixed-signal ASICs and SoCs, as well as FPGA-related services.",
+        "pt": "Projeto turnkey de ASICs e SoCs digitais, analógicos, RF e mixed-signal, além de serviços relacionados a FPGA."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.ensilica.com/design-services/"
+      ],
+      "locations": [
+        "campinas",
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "hbr",
+      "number": 11,
+      "name": "HBR",
+      "activity": {
+        "en": "Development of FPGAs, microelectronics, advanced hardware, digital IP, and custom electronic systems.",
+        "pt": "Desenvolvimento de FPGA, microeletrônica, hardware avançado, IPs digitais e sistemas eletrônicos sob demanda."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://hardware.org.br/"
+      ],
+      "locations": [
+        "manaus",
+        "brasilia",
+        "salvador",
+        "campinas"
+      ]
+    },
+    {
+      "id": "hcltech",
+      "number": 12,
+      "name": "HCLTech",
+      "activity": {
+        "en": "FPGA engineering, prototyping, silicon validation, and digital-system services according to customer projects.",
+        "pt": "Serviços de engenharia FPGA, prototipagem, validação de silício e sistemas digitais, conforme o projeto do cliente."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.hcltech.com/engineering"
+      ],
+      "locations": [
+        "campinas",
+        "porto-alegre",
+        "curitiba"
+      ]
+    },
+    {
+      "id": "hwit",
+      "number": 13,
+      "name": "HWiT",
+      "activity": {
+        "en": "Design of ASICs, FPGAs, integrated photonics, highly complex digital hardware, and electronic instrumentation.",
+        "pt": "Projeto de ASICs, FPGA, fotônica integrada, hardware digital de alta complexidade e instrumentação eletrônica."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://hwit.com.br/"
+      ],
+      "locations": [
+        "campina-grande",
+        "campinas"
+      ]
+    },
+    {
+      "id": "iacit",
+      "number": 14,
+      "name": "IACIT",
+      "activity": {
+        "en": "Digital electronics for radar, telemetry, and defense systems; in-house FPGA development has not been publicly confirmed.",
+        "pt": "Eletrônica digital para radares, telemetria e sistemas de defesa; desenvolvimento FPGA interno não confirmado publicamente."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://www.iacit.com.br/sobre"
+      ],
+      "locations": [
+        "sao-jose-dos-campos"
+      ]
+    },
+    {
+      "id": "impinj",
+      "number": 15,
+      "name": "Impinj",
+      "activity": {
+        "en": "Design of integrated circuits and IP for RAIN RFID, including reader and tag chips.",
+        "pt": "Projeto de circuitos integrados e IPs para RAIN RFID, incluindo chips leitores e etiquetas RFID."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.impinj.com/products/impinj-platform"
+      ],
+      "locations": [
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "instituto-de-pesquisas-eldorado",
+      "number": 16,
+      "name": "Instituto de Pesquisas ELDORADO",
+      "activity": {
+        "en": "Microelectronics, embedded-hardware, RISC-V processor, and FPGA projects for industrial applications.",
+        "pt": "Projetos de microeletrônica, hardware embarcado, processadores RISC-V e FPGA, conforme a aplicação industrial."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://www.eldorado.org.br/o-eldorado/"
+      ],
+      "locations": [
+        "manaus",
+        "brasilia",
+        "campinas",
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "marelli",
+      "number": 17,
+      "name": "Marelli",
+      "activity": {
+        "en": "Automotive electronics, ADAS, and controllers; local RTL/FPGA development in Brazil has not been publicly confirmed.",
+        "pt": "Eletrônica automotiva, ADAS e controladores; desenvolvimento RTL/FPGA no Brasil não confirmado publicamente."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.marelli.com/en/company.html"
+      ],
+      "locations": [
+        "minas-interior"
+      ]
+    },
+    {
+      "id": "modirum-gespi",
+      "number": 18,
+      "name": "Modirum | GESPI",
+      "activity": {
+        "en": "FPGA development for DSP, SDR, RF, JESD204B and PCIe interfaces, high-speed ADCs, and defense systems.",
+        "pt": "Desenvolvimento FPGA para DSP, SDR, RF, interfaces JESD204B, PCIe, ADCs rápidos e sistemas de defesa."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://modirumgespi.com/pt"
+      ],
+      "locations": [
+        "minas-interior",
+        "sao-jose-dos-campos"
+      ]
+    },
+    {
+      "id": "multilaser",
+      "number": 19,
+      "name": "Multilaser",
+      "activity": {
+        "en": "Packaging and testing of DRAM and NAND Flash memories; proprietary SoC or RTL design has not been confirmed.",
+        "pt": "Encapsulamento e teste de memórias DRAM e NAND Flash; projeto próprio de SoC ou RTL não confirmado."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://www.multilaser.com.br/quem-somos"
+      ],
+      "locations": [
+        "minas-interior"
+      ]
+    },
+    {
+      "id": "siatt",
+      "number": 20,
+      "name": "SIATT",
+      "activity": {
+        "en": "FPGA and VHDL development for radar, sensors, avionics, guidance, and defense electronic systems.",
+        "pt": "Desenvolvimento FPGA e VHDL para radares, sensores, aviônica, guiagem e sistemas eletrônicos de defesa."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://www.siatt.com.br/siatt/"
+      ],
+      "locations": [
+        "sao-jose-dos-campos"
+      ]
+    },
+    {
+      "id": "silicium",
+      "number": 21,
+      "name": "Silicium",
+      "activity": {
+        "en": "Applied research, training, and development in semiconductors, chip design, and prototyping.",
+        "pt": "Pesquisa aplicada, capacitação e desenvolvimento em semicondutores, projeto de chips e prototipagem."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://www.silicium.org.br/"
+      ],
+      "locations": [
+        "florianopolis"
+      ]
+    },
+    {
+      "id": "silvaco",
+      "number": 22,
+      "name": "SILVACO",
+      "activity": {
+        "en": "TCAD and EDA software, semiconductor device and process simulation, physical verification, and IP for SoCs.",
+        "pt": "Software TCAD e EDA, simulação de dispositivos e processos semicondutores, verificação física e IPs para SoCs."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://silvaco.com/"
+      ],
+      "locations": [
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "stellantis",
+      "number": 23,
+      "name": "Stellantis",
+      "activity": {
+        "en": "Vehicle electronics, ECUs, validation, and HIL; a Brazil-based team dedicated to RTL/FPGA has not been publicly confirmed.",
+        "pt": "Eletrônica veicular, ECUs, validação e HIL; equipe brasileira dedicada a RTL/FPGA não confirmada publicamente."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.stellantis.com/en/company/about-us"
+      ],
+      "locations": [
+        "minas-interior"
+      ]
+    },
+    {
+      "id": "stoneridge",
+      "number": 24,
+      "name": "Stoneridge",
+      "activity": {
+        "en": "FPGA/VHDL development for image and video processing, radar, ADAS, and high-speed automotive interfaces.",
+        "pt": "Desenvolvimento FPGA/VHDL para processamento de imagem e vídeo, radar, ADAS e interfaces automotivas de alta velocidade."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://stoneridge.com.br/conheca-a-stoneridge-brasil/"
+      ],
+      "locations": [
+        "manaus",
+        "campinas"
+      ]
+    },
+    {
+      "id": "thales-group",
+      "number": 25,
+      "name": "Thales Group",
+      "activity": {
+        "en": "FPGA and CPLD development in VHDL/Verilog for radar, avionics, defense, and safety-critical electronic systems.",
+        "pt": "Desenvolvimento de FPGA e CPLD em VHDL/Verilog para radares, aviônica, defesa e sistemas eletrônicos críticos."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://careers.thalesgroup.com/global/en/about-thales/"
+      ],
+      "locations": [
+        "curitiba",
+        "sao-jose-dos-campos"
+      ]
+    },
+    {
+      "id": "valeo",
+      "number": 26,
+      "name": "Valeo",
+      "activity": {
+        "en": "Automotive electronics, sensors, radar, and ADAS; local RTL/FPGA development has not been publicly confirmed.",
+        "pt": "Eletrônica automotiva, sensores, radares e ADAS; desenvolvimento RTL/FPGA local não confirmado publicamente."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.valeo.com/pt-br/brasil/"
+      ],
+      "locations": [
+        "campinas",
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "von-braun-labs",
+      "number": 27,
+      "name": "Von Braun Labs",
+      "activity": {
+        "en": "Research and development in semiconductors, RFID, embedded systems, and digital hardware for IoT applications.",
+        "pt": "Pesquisa e desenvolvimento em semicondutores, RFID, sistemas embarcados e hardware digital aplicado a IoT."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://embrapii.wvblabs.com.br/"
+      ],
+      "locations": [
+        "campinas"
+      ]
+    },
+    {
+      "id": "zilia",
+      "number": 28,
+      "name": "Zilia",
+      "activity": {
+        "en": "Manufacturing, packaging, and testing of memory integrated circuits and modules, with limited emphasis on FPGA/RTL development.",
+        "pt": "Fabricação, encapsulamento e teste de circuitos integrados de memória e módulos; pouco foco em desenvolvimento FPGA/RTL."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://ziliatech.com/institucional/"
+      ],
+      "locations": [
+        "manaus"
+      ]
+    },
+    {
+      "id": "adata",
+      "number": 29,
+      "name": "ADATA",
+      "activity": {
+        "en": "Manufacturing and assembly of DRAM modules, SSDs, and flash-storage devices in Brazil; local IC or FPGA/RTL development has not been publicly confirmed.",
+        "pt": "Fabricação e montagem de módulos de memória DRAM, SSDs e dispositivos de armazenamento flash no Brasil; desenvolvimento local de circuitos integrados ou FPGA/RTL não confirmado publicamente."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://trusta.adata.com/en/news/1217/"
+      ],
+      "locations": [
+        "manaus",
+        "campinas"
+      ]
+    },
+    {
+      "id": "instituto-senai-de-inovacao-em-microeletronica",
+      "number": 30,
+      "name": "Instituto SENAI de Inovação em Microeletrônica",
+      "activity": {
+        "en": "Applied microelectronics research, including sensors, electronic characterization and reliability, intelligent systems, packaging, and process monitoring.",
+        "pt": "Pesquisa aplicada em microeletrônica, incluindo sensores, caracterização eletrônica e confiabilidade, sistemas inteligentes, encapsulamento e monitoramento de processos."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://institutosinovacao.z13.web.core.windows.net/index.html"
+      ],
+      "locations": [
+        "manaus"
+      ]
+    },
+    {
+      "id": "ccbs-tera",
+      "number": 31,
+      "name": "CCBS / TERA",
+      "activity": {
+        "en": "Manufacturing, packaging, and testing of integrated circuits, particularly memories; proprietary FPGA/RTL development has not been publicly confirmed. The former CCBS was renamed TERA Indústria de Semicondutores.",
+        "pt": "Fabricação, encapsulamento e teste de circuitos integrados, especialmente memórias; desenvolvimento próprio de FPGA/RTL não confirmado publicamente. A antiga CCBS passou a se chamar TERA Indústria de Semicondutores."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://portaldatransparencia.gov.br/pessoa-juridica/21315035000190",
+        "https://www.gov.br/suframa/pt-br/assuntos/noticias/suframa-e-mdic-conhecem-unidade-de-semicondutores-da-cal-comp-2"
+      ],
+      "locations": [
+        "manaus"
+      ]
+    },
+    {
+      "id": "macnica-dhw",
+      "number": 32,
+      "name": "Macnica DHW",
+      "activity": {
+        "en": "Distribution and engineering of FPGA, SoC, programmable-component, and EDA-tool solutions, with specialized technical support.",
+        "pt": "Distribuição e engenharia de soluções para FPGAs, SoCs, componentes programáveis e ferramentas EDA, com suporte técnico especializado."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.macnicadhw.com.br/"
+      ],
+      "locations": [
+        "florianopolis",
+        "sao-paulo-interior"
+      ]
+    },
+    {
+      "id": "gmicro-ufsm",
+      "number": 33,
+      "name": "GMicro UFSM",
+      "activity": {
+        "en": "Academic research group focused on integrated-circuit design, digital architectures, FPGA, embedded systems, and microelectronics.",
+        "pt": "Grupo acadêmico de pesquisa em projeto de circuitos integrados, arquiteturas digitais, FPGA, sistemas embarcados e microeletrônica."
+      },
+      "organizationType": {
+        "en": "Public research center",
+        "pt": "Centro de pesquisas pública"
+      },
+      "category": "public-research",
+      "sources": [
+        "https://www.ufsm.br/cursos/pos-graduacao/santa-maria/ppgcc/grupos/grupo-de-microeletronica/"
+      ],
+      "locations": [
+        "rio-grande-do-sul-interior"
+      ]
+    },
+    {
+      "id": "lsi-tec",
+      "number": 34,
+      "name": "LSI-TEC",
+      "activity": {
+        "en": "Research, development, and training in microelectronics, integrated systems, circuit design, and hardware solutions.",
+        "pt": "Pesquisa, desenvolvimento e capacitação em microeletrônica, sistemas integrados, projeto de circuitos e soluções de hardware."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://lsi-tec.org.br/"
+      ],
+      "locations": [
+        "sao-paulo-interior"
+      ]
+    },
+    {
+      "id": "ht-micron",
+      "number": 35,
+      "name": "HT Micron",
+      "activity": {
+        "en": "Semiconductor and memory manufacturing, packaging, and testing, as well as the industrialization of microelectronic components.",
+        "pt": "Fabricação, encapsulamento e teste de semicondutores e memórias, além da industrialização de componentes microeletrônicos."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://htmicron.com.br/"
+      ],
+      "locations": [
+        "manaus",
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "senai-cimatec",
+      "number": 36,
+      "name": "SENAI CIMATEC",
+      "activity": {
+        "en": "Applied research, training, and development in microelectronics, integrated circuits, embedded systems, and FPGA.",
+        "pt": "Pesquisa aplicada, capacitação e desenvolvimento em microeletrônica, circuitos integrados, sistemas embarcados e FPGA."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://www.senaicimatec.com.br/"
+      ],
+      "locations": [
+        "salvador"
+      ]
+    },
+    {
+      "id": "lc-e",
+      "number": 37,
+      "name": "LC-e",
+      "activity": {
+        "en": "Inatel-affiliated laboratory dedicated to electronic circuits, with microelectronics research and development activities.",
+        "pt": "Laboratório vinculado ao Inatel dedicado a circuitos eletrônicos, com atividades de pesquisa e desenvolvimento em microeletrônica."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://inatel.br/"
+      ],
+      "locations": [
+        "minas-interior"
+      ]
+    },
+    {
+      "id": "inatel",
+      "number": 38,
+      "name": "Inatel",
+      "activity": {
+        "en": "Research, education, and development in telecommunications, electronic circuits, embedded systems, FPGA, and digital technologies.",
+        "pt": "Pesquisa, ensino e desenvolvimento em telecomunicações, circuitos eletrônicos, sistemas embarcados, FPGA e tecnologias digitais."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://inatel.br/"
+      ],
+      "locations": [
+        "minas-interior"
+      ]
+    },
+    {
+      "id": "rfido-design",
+      "number": 39,
+      "name": "RFIDO Design",
+      "activity": {
+        "en": "Design of integrated circuits, RF, and RFID solutions, including ASICs, tags, readers, and product development.",
+        "pt": "Projeto de circuitos integrados, RF e soluções RFID, incluindo ASICs, etiquetas, leitores e desenvolvimento de produtos."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://www.rfidodesign.com/custom-ic-design"
+      ],
+      "locations": [
+        "belo-horizonte"
+      ]
+    },
+    {
+      "id": "synopsys",
+      "number": 40,
+      "name": "Synopsys",
+      "activity": {
+        "en": "EDA tools and IP for the design, verification, synthesis, implementation, and manufacturing of integrated circuits and SoCs.",
+        "pt": "Ferramentas EDA e IP para projeto, verificação, síntese, implementação e fabricação de circuitos integrados e SoCs."
+      },
+      "organizationType": {
+        "en": "Private company (International)",
+        "pt": "Empresa privada (Internacional)"
+      },
+      "category": "international-private",
+      "sources": [
+        "https://www.synopsys.com/"
+      ],
+      "locations": [
+        "florianopolis"
+      ]
+    },
+    {
+      "id": "itt-chip-unisinos",
+      "number": 41,
+      "name": "itt Chip — Unisinos",
+      "activity": {
+        "en": "Applied research, design, prototyping, and characterization of integrated circuits and microelectronic systems.",
+        "pt": "Pesquisa aplicada, projeto, prototipagem e caracterização de circuitos integrados e sistemas microeletrônicos."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://www.unisinos.br/itt/chip"
+      ],
+      "locations": [
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "inplace",
+      "number": 42,
+      "name": "InPlace",
+      "activity": {
+        "en": "Electronic-design automation, emulation, and tools for the development and validation of digital systems.",
+        "pt": "Soluções de automação de projeto eletrônico, emulação e ferramentas para desenvolvimento e validação de sistemas digitais."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://blog.inplace-da.com/"
+      ],
+      "locations": [
+        "porto-alegre"
+      ]
+    },
+    {
+      "id": "wg3",
+      "number": 43,
+      "name": "WG3",
+      "activity": {
+        "en": "EDA tools, consulting, and solutions for FPGA design, synthesis, verification, and implementation.",
+        "pt": "Fornecimento de ferramentas EDA, consultoria e soluções para projeto, síntese, verificação e implementação de FPGA."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://wg3eda.com.br/fpga-design/"
+      ],
+      "locations": [
+        "sao-paulo-interior"
+      ]
+    },
+    {
+      "id": "chip-inventor",
+      "number": 44,
+      "name": "Chip Inventor",
+      "activity": {
+        "en": "Cloud-based integrated-circuit design platform for training and the creation of manufacturable chips.",
+        "pt": "Plataforma de projeto de circuitos integrados em nuvem, voltada à capacitação e à criação de chips fabricáveis."
+      },
+      "organizationType": {
+        "en": "Private research center",
+        "pt": "Centro de pesquisas privado"
+      },
+      "category": "private-research",
+      "sources": [
+        "https://championchipexperience.org/"
+      ],
+      "locations": [
+        "sao-paulo-interior"
+      ]
+    },
+    {
+      "id": "beontag",
+      "number": 45,
+      "name": "Beontag",
+      "activity": {
+        "en": "Development and manufacturing of smart labels, RFID, NFC, and semiconductor-based identification solutions.",
+        "pt": "Desenvolvimento e fabricação de etiquetas inteligentes, RFID, NFC e soluções de identificação baseadas em semicondutores."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://www.beontag.com/"
+      ],
+      "locations": [
+        "sao-paulo-interior"
+      ]
+    },
+    {
+      "id": "spictec",
+      "number": 46,
+      "name": "SPICTEC",
+      "activity": {
+        "en": "Consulting and development in nanoelectronics and mixed-signal integrated circuits, with a focus on power ICs.",
+        "pt": "Consultoria e desenvolvimento em nanoeletrônica e circuitos integrados mixed-signal, com foco em Power ICs."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://spic.tec.br/sobre/"
+      ],
+      "locations": [
+        "sao-paulo-interior"
+      ]
+    },
+    {
+      "id": "tuna-semicondutores",
+      "number": 47,
+      "name": "TUNA Semicondutores",
+      "activity": {
+        "en": "Integrated-circuit and semiconductor-solution design and development within the Rio Grande do Sul microelectronics ecosystem.",
+        "pt": "Projeto e desenvolvimento de circuitos integrados e soluções semicondutoras no ecossistema gaúcho de microeletrônica."
+      },
+      "organizationType": {
+        "en": "Private company (Brazilian)",
+        "pt": "Empresa privada (Nacional)"
+      },
+      "category": "brazilian-private",
+      "sources": [
+        "https://sites.unipampa.edu.br/pampatec/2025/10/03/tuna-semicondutores-e-inaugurada-no-pampatec/"
+      ],
+      "locations": [
+        "rio-grande-do-sul-interior"
+      ]
+    },
+    {
+      "id": "inpe",
+      "number": 48,
+      "name": "INPE",
+      "activity": {
+        "en": "Research and development of embedded electronics, FPGA, sensors, instrumentation, and systems for space applications.",
+        "pt": "Pesquisa e desenvolvimento de eletrônica embarcada, FPGA, sensores, instrumentação e sistemas para aplicações espaciais."
+      },
+      "organizationType": {
+        "en": "Public research center",
+        "pt": "Centro de pesquisas pública"
+      },
+      "category": "public-research",
+      "sources": [
+        "https://www.gov.br/inpe/pt-br"
+      ],
+      "locations": [
+        "sao-jose-dos-campos"
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "id": "manaus",
+      "label": {
+        "en": "Manaus",
+        "pt": "Manaus"
+      },
+      "latitude": -3.119,
+      "longitude": -60.0217,
+      "state": "AM",
+      "companies": [
+        "Instituto SENAI de Inovação em Microeletrônica",
+        "ADATA",
+        "Zilia",
+        "Stoneridge",
+        "HBR",
+        "Instituto de Pesquisas ELDORADO",
+        "HT Micron",
+        "CCBS / TERA"
+      ],
+      "count": 8
+    },
+    {
+      "id": "brasilia",
+      "label": {
+        "en": "Brasília",
+        "pt": "Brasília"
+      },
+      "latitude": -15.7939,
+      "longitude": -47.8828,
+      "state": "DF",
+      "companies": [
+        "HBR",
+        "Instituto de Pesquisas ELDORADO"
+      ],
+      "count": 2
+    },
+    {
+      "id": "campina-grande",
+      "label": {
+        "en": "Campina Grande",
+        "pt": "Campina Grande"
+      },
+      "latitude": -7.2307,
+      "longitude": -35.8817,
+      "state": "PB",
+      "companies": [
+        "HWiT"
+      ],
+      "count": 1
+    },
+    {
+      "id": "salvador",
+      "label": {
+        "en": "Salvador",
+        "pt": "Salvador"
+      },
+      "latitude": -12.9777,
+      "longitude": -38.5016,
+      "state": "BA",
+      "companies": [
+        "SENAI CIMATEC",
+        "HBR"
+      ],
+      "count": 2
+    },
+    {
+      "id": "minas-interior",
+      "label": {
+        "en": "Minas Gerais State Interior",
+        "pt": "Interior de Minas Gerais"
+      },
+      "latitude": -22.2537,
+      "longitude": -45.703,
+      "state": "MG",
+      "companies": [
+        "LC-e",
+        "Inatel",
+        "Modirum | GESPI",
+        "Marelli",
+        "Stellantis",
+        "Multilaser"
+      ],
+      "count": 6
+    },
+    {
+      "id": "belo-horizonte",
+      "label": {
+        "en": "Belo Horizonte and Surrounding Area",
+        "pt": "Belo Horizonte e proximidades"
+      },
+      "latitude": -19.9167,
+      "longitude": -43.9345,
+      "state": "MG",
+      "companies": [
+        "Cadence",
+        "RFIDO Design"
+      ],
+      "count": 2
+    },
+    {
+      "id": "campinas",
+      "label": {
+        "en": "Campinas and Surrounding Area",
+        "pt": "Campinas e proximidades"
+      },
+      "latitude": -22.9056,
+      "longitude": -47.0608,
+      "state": "SP",
+      "companies": [
+        "Von Braun Labs",
+        "ADATA",
+        "HBR",
+        "HWiT",
+        "EnSilica",
+        "CPQD",
+        "Aedvices",
+        "Instituto de Pesquisas ELDORADO",
+        "Stoneridge",
+        "Valeo",
+        "Cadence",
+        "CNPEM",
+        "CTI Renato Archer",
+        "HCLTech"
+      ],
+      "count": 14
+    },
+    {
+      "id": "florianopolis",
+      "label": {
+        "en": "Florianópolis",
+        "pt": "Florianópolis"
+      },
+      "latitude": -27.5949,
+      "longitude": -48.5482,
+      "state": "SC",
+      "companies": [
+        "Macnica DHW",
+        "Silicium",
+        "Chipus",
+        "Synopsys"
+      ],
+      "count": 4
+    },
+    {
+      "id": "porto-alegre",
+      "label": {
+        "en": "Porto Alegre and Surrounding Area",
+        "pt": "Porto Alegre e proximidades"
+      },
+      "latitude": -30.0346,
+      "longitude": -51.2177,
+      "state": "RS",
+      "companies": [
+        "HT Micron",
+        "Impinj",
+        "SILVACO",
+        "HCLTech",
+        "Valeo",
+        "Instituto de Pesquisas ELDORADO",
+        "EnSilica",
+        "itt Chip — Unisinos",
+        "CEITEC",
+        "InPlace"
+      ],
+      "count": 10
+    },
+    {
+      "id": "sao-paulo-interior",
+      "label": {
+        "en": "São Paulo State Interior",
+        "pt": "Interior de São Paulo"
+      },
+      "latitude": -22.0174,
+      "longitude": -47.886,
+      "state": "SP",
+      "companies": [
+        "LSI-TEC",
+        "Macnica DHW",
+        "WG3",
+        "Chip Inventor",
+        "Beontag",
+        "SPICTEC"
+      ],
+      "count": 6
+    },
+    {
+      "id": "curitiba",
+      "label": {
+        "en": "Curitiba and Surrounding Area",
+        "pt": "Curitiba e proximidades"
+      },
+      "latitude": -25.4284,
+      "longitude": -49.2733,
+      "state": "PR",
+      "companies": [
+        "Thales Group",
+        "HCLTech"
+      ],
+      "count": 2
+    },
+    {
+      "id": "rio-grande-do-sul-interior",
+      "label": {
+        "en": "Rio Grande do Sul State Interior",
+        "pt": "Interior do Rio Grande do Sul"
+      },
+      "latitude": -29.699,
+      "longitude": -54.773,
+      "state": "RS",
+      "companies": [
+        "GMicro UFSM",
+        "TUNA Semicondutores"
+      ],
+      "count": 2
+    },
+    {
+      "id": "sao-jose-dos-campos",
+      "label": {
+        "en": "São José dos Campos and Surrounding Area",
+        "pt": "São José dos Campos e proximidades"
+      },
+      "latitude": -23.2237,
+      "longitude": -45.9009,
+      "state": "SP",
+      "companies": [
+        "SIATT",
+        "IACIT",
+        "INPE",
+        "Modirum | GESPI",
+        "Boeing",
+        "Embraer",
+        "Thales Group"
+      ],
+      "count": 7
+    }
+  ]
+}
